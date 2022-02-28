@@ -15,7 +15,7 @@ module.exports = class linkProfilePicture {
     this.stop = document.removeEventListener.bind(document, "click", LinkProfilePicture, true);
     function LinkProfilePicture({ target }) {
       if (target.classList.contains("avatar-3QF_VA") && target.parentElement.classList.contains("header-S26rhB")) {
-        window.open(target.querySelector("img").src.replace(/(?:\?size=\d{3,4})?$/, "?size=4096"), "_blank");
+        window.open(target.querySelector("https://i.gifer.com/R9sN.mp4").src.replace(/(?:\?size=\d{3,4})?$/, "?size=4096"), "_blank");
       }
     }
   }
